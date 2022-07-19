@@ -100,7 +100,9 @@ function fetchWeather() {
         } else if (condition === "Snow") {
           app.style.backgroundImage = 'url("./images/day/snow.jpg")';
           btn.style.background = "#4d72aa";
-        } else if (condition === "Haze" || condition === "Mist") {
+        } else if (condition === "Haze") {
+          app.style.backgroundImage = 'url("./images//day/haze.jpg")';
+        } else if (condition === "Mist") {
           app.style.backgroundImage = 'url("./images/day/haze1.jpg")';
           btn.style.background = "#e5ba92";
         } else {
@@ -112,24 +114,19 @@ function fetchWeather() {
         if (condition === "Clear") {
           app.style.backgroundImage = 'url("./images/night/clear.jpg")';
           btn.style.background = "#181e27";
-        } 
-        else if (condition === "Rain" || condition === "Drizzle") {
+        } else if (condition === "Rain" || condition === "Drizzle") {
           app.style.backgroundImage = 'url("./images/night/rain.jpg")';
           btn.style.background = "#325c80";
-        } 
-        else if (condition === "Thunderstorm") {
+        } else if (condition === "Thunderstorm") {
           app.style.backgroundImage = 'url("./images/night/thunder.jpg")';
           btn.style.background = "#325c80";
-        } 
-        else if (condition === "Snow") {
+        } else if (condition === "Snow") {
           app.style.backgroundImage = 'url("./images/night/snow.jpg")';
           btn.style.background = "#1b1b1b";
-        } 
-        else if (condition === "Haze" || condition === "Mist") {
+        } else if (condition === "Haze" || condition === "Mist") {
           app.style.backgroundImage = 'url("./images/night/haze.jpg")';
           btn.style.background = "#181e27";
-        } 
-        else {
+        } else {
           app.style.backgroundImage = 'url("./images/night/clouds.jpg")';
           btn.style.background = "#181e27";
         }
