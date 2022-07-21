@@ -103,7 +103,7 @@ function fetchWeather() {
         } else if (condition === "Haze") {
           app.style.backgroundImage = 'url("./images//day/haze.jpg")';
         } else if (condition === "Mist") {
-          app.style.backgroundImage = 'url("./images/day/haze1.jpg")';
+          app.style.backgroundImage = 'url("./images/day/mist.jpg")';
           btn.style.background = "#e5ba92";
         } else {
           app.style.backgroundImage = 'url("./images/day/clouds.jpg")';
